@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(181, 178, 178, 0.075);
+  background-image: repeating-linear-gradient(
+    130deg,
+    transparent 5px,
+    transparent 35px,
+    rgba(252, 252, 252, 0.961) 50px,
+    rgba(255, 255, 255, 0.941) 25px
+  );
+}
+
+h1 {
+  color: #800080;
+  font-family: Roboto Slab, serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+header p {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: scaleY(1.9);
+  font-size: 13px;
+  margin-top: 0px;
+  padding-left: 2px;
+  margin-left: 100px;
+}
+
+header {
+  margin-bottom: 80px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin-top: -60px;
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section.need-a-website {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.need-a-website h2 {
+  font-family: Roboto Slab, serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.need-a-website p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 150px;
+  position: relative;
+  top: 60px;
+  left: 30px;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: white;
+  border: 3px solid black;
+  font-weight: bold;
+}
+
+/* second section */
+
+.our-team {
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.our-team h2 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.cards-our-team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
+div.card {
+  width: 25%;
+  margin: 50px;
+}
+
+.our-team .cards-our-team .card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid rgb(189, 189, 231);
+  /* border: 10px solid #e6d2c9 */
+}
+
+.card .card-body {
+  text-align: center;
+}
+
+h4 {
+  font-size: larger;
+  margin-bottom: 1px;
+}
+
+h5 {
+  margin-top: 4px;
+  font-size: larger;
+  font-weight: 200;
+}
+
+.card-body p {
+  font-size: 24px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+/* third section */
+
+section.sign-newsletter {
+  background-color: #68347b;
+  padding-bottom: 30px;
+}
+
+.sign-newsletter h2 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
+  font-family: Roboto Slab, serif;
+  font-weight: 300;
+}
+
+.sign-newsletter .card-body {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+button {
+  font-size: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #333333;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px 80px;
+  border: 1px solid 333333;
+}
+
+/* fourth section */
+
+section.testimonials {
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.testimonials h2 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-family: Roboto Slab, serif;
+}
+
+.cards-testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cards-testimonials .card {
+  width: 25%;
+  margin: 50px;
+}
+
+.testimonials .cards-testimonials .card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid rgb(189, 189, 231);
+}
+
+.cards-testimonials .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+h4 {
+  font-size: larger;
+  margin-bottom: 1px;
+}
+
+h5 {
+  margin-top: 4px;
+  font-size: larger;
+  font-weight: 200;
+}
+
+.card-body p {
+  font-size: 24px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fcfcfc;
+  border-top: 1px solid rgb(206, 203, 203);
+  box-shadow: 0px 0px 0px 1px rgba(150, 147, 147, 0.548);
+
+  background: linear-gradient(
+      135deg,
+      #d4d6d8 21px,
+      #d9ecff 22px,
+      #d9ecff 24px,
+      transparent 34px,
+      transparent 67px,
+      #d9ecff 67px,
+      #d9ecff 69px,
+      transparent 69px
+    ),
+    linear-gradient(
+        225deg,
+        #d3d7db 21px,
+        #d9ecff 22px,
+        #d9ecff 24px,
+        transparent 24px,
+        transparent 67px,
+        #d9ecff 67px,
+        #d9ecff 69px,
+        transparent 69px
+      )
+      0 64px;
+  background-color: #e4e7eafa;
+  background-size: 64px 128px;
+
+
+
+  padding-bottom: 50px;
+}
+
+
+footer div h1 {
+  color: black;
+  font-family: Roboto Slab, serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  width: 30%;
+}
+
+footer div p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 100px;
+  max-width: 40%;
+}
+
+.sitemap {
+  margin-left: -250px;
+  margin-right: 20px;
+}
+
+.sitemap nav ul {
+  list-style: none;
+  margin-top: 0px;
+  margin-left: -10px;
+}
+
+.sitemap nav ul a li {
+  margin-top: -25px;
+  font-family: Roboto Slab, serif;
+  font-size: large;
+}
+
+.sitemap nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-left: -330px;
+}
+
+.sitemap h2 {
+  margin-left: -300px;
+  margin-top: 50px;
+  font-family: Roboto Slab, serif;
+}
+
+.contacts h2 {
+  font-family: Roboto Slab, serif;
+  margin-top: 45px;
+}
+
+.contacts {
+  margin-left: -50px;
+  margin-right: 100px;
+}
+
+.contacts ul li {
+  list-style-type: none;
+  margin-left: -30px;
+  font-size: large;
+}
+
+i {
+  padding-right: 20px;
+}
+
